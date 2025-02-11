@@ -4,7 +4,7 @@ This blog assumes you have an EKS cluster set up and accessible via an IDE like 
 
 1. Clone the Open Telemetry Demo repository (sample application code)
 
-            git clone https://github.com/aws-samples/sample-correlation-opensearch-repository/opentelemetry-demo.git
+            git clone https://github.com/aws-samples/sample-correlation-opensearch-repository/blob/main/opentelemetry-demo.yaml
 
 2. Navigate to the Kubernetes directory:
 
