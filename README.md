@@ -2,9 +2,9 @@
 
 This blog assumes you have an EKS cluster set up and accessible via an IDE like Amazon Cloud9.
 
-1. Clone the Open Telemetry Demo repository (sample application code)
+1. Clone the Open Telemetry Demo application repository (sample application code)
 
-            git clone https://github.com/aws-samples/sample-correlation-opensearch-repository/blob/main/opentelemetry-demo.yaml
+            git clone https://github.com/aws-samples/sample-correlation-opensearch-repository/blob/main/Sample-Source-Application-opentelemetry.zip
 
 2. Navigate to the Kubernetes directory:
 
@@ -28,7 +28,10 @@ This blog assumes you have an EKS cluster set up and accessible via an IDE like 
 
 By following above steps, you can successfully install and access demo applications on your EKS cluster.
 
+6.  Clone the Open Telemetry collector repository (sample config code)
+              git clone https://github.com/aws-samples/sample-correlation-opensearch-repository/blob/main/OTEL-COLLECTOR.zip
 
+7. You can update the endpoint in teh configmap.yaml according to your requirement.
 
 ## Security
 
