@@ -10,9 +10,9 @@ This blog assumes you have an EKS cluster set up and accessible via an IDE like 
 
             cd opentelemetry-demo/kubernetes
 
-3. Deploy the demo application using kubectl apply:
+3. Deploy the demo application using kubectl apply:  (specify your namespace)
 
-           kubectl apply -f . -n otel-demo
+           kubectl apply -f . -n otel-demo    
 
 4. Expose the frontend service
 
