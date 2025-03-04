@@ -13,12 +13,12 @@ data:
     exporters:
       logging: {}
       otlphttp/logs:
-        logs_endpoint: "<AWS_OPENSEARCH_DOMAIN_URL_LOG>"
+        logs_endpoint: "<AWS_OPENSEARCH_LOG_INGESTION_URL>/v1/logs"
         auth:
           authenticator: sigv4auth
         compression: none
       otlphttp/traces:
-        traces_endpoint: "<AWS_OPENSEARCH_DOMAIN_URL_TRACE>"
+        traces_endpoint: "<AWS_OPENSEARCH_TRACE_INGESTION_URL>/v1/traces"
         auth:
           authenticator: sigv4auth 
         compression: none
